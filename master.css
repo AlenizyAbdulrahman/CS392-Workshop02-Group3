@@ -1,0 +1,38 @@
+.college {
+
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: -16px;
+    right: -1000px;
+}
+.university {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: -16px;
+    left: -260px;
+}
+
+.projectname {
+    position: relative;
+    top: -200px;
+    right: -450px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.item {
+
+    position: relative;
+    right: -500px;
+    top: -95px;
+
+ } 
+
+ #area {
+    position: relative;
+    right: -500px;
+    top: -50px;
+
+ }
