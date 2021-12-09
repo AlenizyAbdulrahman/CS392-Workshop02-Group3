@@ -1,15 +1,14 @@
 language: node_js
 node_js:
-   - 17.1.0
-cache: yarn
-install:
-   - yarn install
+  - "8"
+cache: npm
 script:
-   - yarn test
-   - yarn run build
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  on:
-    branch: main
+  - echo 'Build starts!!'
+  - echo 'Installing Deps!'
+  - echo 'Testing!'
+  - npm test
+install:
+  - npm install -g firebase-tools
+after_success:
+  - npm build
+  - firebase deploy --token "$GITHUB_TOKEN"
