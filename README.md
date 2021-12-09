@@ -1,3 +1,4 @@
+[![Build Status](https://app.travis-ci.com/abdulrahman-alanzi/CS392-Workshop02-Group3.svg?branch=main)](https://app.travis-ci.com/abdulrahman-alanzi/CS392-Workshop02-Group3)
 # Food Prediction.
 ### Description:
 Machine-learning approach for automated and systematic prediction of nutrient content available in food.
