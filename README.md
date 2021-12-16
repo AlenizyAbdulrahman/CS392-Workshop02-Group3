@@ -10,7 +10,7 @@ npm install
 node index.js
 ```
 ### Operating instructions:
-Write any kind of food ingredients on the text field and press submit then the result will appear on the server side.  For example, If we write beef, tomato, and bread it will return a burger.
+Write any kind of food ingredients on the text field and press submit then the result will appear on a text area.also you can clear the text by click on clear button and all the text will erase and you can write again. While the text area is going to dynamically change.
 ### Contributors:
 [Ahmed Saud Alshaalan](https://github.com/AhmedSaudA)
 [Sultan Almansour](https://github.com/sultan209)
