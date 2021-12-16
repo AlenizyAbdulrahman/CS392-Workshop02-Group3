@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Your front-end</title>
-<link rel="stylesheet" href="master.css">
-</head>
-
-<body>
-
-<header >
-	<img src="ccis.png" class="college">
-	<img src="imamu.jpg" class="university">
-	<h1 class="projectname">Food Prediction.</h1>
-</header>
-
-<div class="item">
-	<form action="/fasttext">
-		Enter your text to be classified<br>
-		<input type="text" id="clr" name="statement">
-		<input type="submit" value="Submit">
-		<button type="reset" value="Reset">Clear</button>
-	</form> 
-</div>
-
-<textarea name="text" id="area" cols="30" rows="10"></textarea>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Food-Expected tool</title>
+    <!-- <link rel="stylesheet" href="Style.css"  /> -->
+	<link rel="stylesheet" type="text/css" href="css/Style.css" />
 
 
+  </head>
 
+  <body>
+    <div class="header">
+      <div>
+        <img class="logo1" src="images/csimg.png" alt="CS image" />
+      </div>
+      <div class="website_name">
+        <h1>Food-Expected</h1>
+      </div>
+    </div>
+    <form action="/fasttext">
+      <div class="center">
+        <label for="name">Enter your text to be classified </label><br>
+        <input
+          class="Textbox"
+          type="text"
+          id="name"
+          name="statement"
+          placeholder="Enter your food"
+        />
+      </div>
+      <div class="wrap">
+        <div class="item">
+          <button class="btn">Submit</button>
+        </div>
+        <div class="item">
+          <button input type="reset" class="btn2">Clear text</button>
+        </div>
+      </div>
+    </form>
 
-</body>
-
-</html> 
+  </body>
+</html>
