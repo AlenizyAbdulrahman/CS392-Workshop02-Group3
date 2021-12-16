@@ -4,7 +4,7 @@
 Machine-learning approach for automated and systematic prediction of nutrient content available in food.
 ### Installation instructions:
 ```js
-git clone https://github.com/AhmedSaudA/CS392-Workshop02-Group3.git
+git clone https://github.com/abdulrahman-alanzi/CS392-Workshop02-Group3.git
 cd CS392-Workshop02-Group3
 npm install
 node index.js
